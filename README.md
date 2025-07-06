@@ -32,4 +32,4 @@ CUDA_VISIBLE_DEVICES=0 bash metric.sh
 python model.py
 ```
 # Acknowledgement
-This repository is built based on [VideoMAE](https://github.com/MCG-NJU/VideoMAE) and [UMT](https://github.com/OpenGVLab/unmasked_teacher).
+This repository is built based on [VideoMAE](https://github.com/MCG-NJU/VideoMAE) and [UMT](https://github.com/OpenGVLab/unmasked_teacher). Thanks for their outstanding work!
