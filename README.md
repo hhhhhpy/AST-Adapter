@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 # Datasets 
-We follow [VideoMAE]([https://google.com](https://github.com/MCG-NJU/VideoMAE/blob/main/DATASET.md)) to prepare the datasets. 
+We follow [VideoMAE](https://github.com/MCG-NJU/VideoMAE/blob/main/DATASET.md) to prepare the datasets. 
 # Metric Calculation
 ```bash
 CUDA_VISIBLE_DEVICES=0 bash metric.sh
