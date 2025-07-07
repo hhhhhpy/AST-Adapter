@@ -363,8 +363,6 @@ if __name__ =="__main__":
                     st_sim = block_cos_sim(blk).mean(dim=-1)  # B*H*W
                     sim_dict[f'{i}_{j}_st'].append(st_sim.detach().cpu().reshape(B, H, W))
                     
-            if bi>10 :
-                break   
            
                    
             feature_hook.features.clear()
