@@ -12,7 +12,7 @@ The core contributions of our work include：
 
 ▶️ A novel metric to quantify spatiotemporal information bias within video datasets.
 
-▶️ An adaptive selection mechanism to choose the optimal adapter for each layer.
+▶️ An adaptive selection mechanism to select the optimal adapter for each layer.
 
 # Installation
 
@@ -21,8 +21,15 @@ conda create -n ast python=3.8
 pip install -r requirements.txt
 ```
 
-
-
+# Datasets 
+We follow [VideoMAE](https://github.com/MCG-NJU/VideoMAE/blob/main/DATASET.md) to prepare the datasets. 
 # Metric Calculation
-# Performance Evaluation
-
+```bash
+CUDA_VISIBLE_DEVICES=0 bash metric.sh
+```
+# Model Evaluation
+```bash
+python model.py
+```
+# Acknowledgement
+This repository is built based on [VideoMAE](https://github.com/MCG-NJU/VideoMAE) and [UMT](https://github.com/OpenGVLab/unmasked_teacher). Thanks for their outstanding work!
